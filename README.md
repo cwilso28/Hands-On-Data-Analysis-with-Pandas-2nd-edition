@@ -68,13 +68,11 @@ Alternatively, consider using this repository on [Binder](https://mybinder.org/v
 If you have Python 3.9+ installed, you should create a virtual environment with `conda` and specify Python 3.8 as discussed in [this issue](https://github.com/stefmolin/Hands-On-Data-Analysis-with-Pandas-2nd-edition/issues/2):
 
 ```shell
-$ conda env create --name book_env python=3.8
+$ conda create --name book_env python=3.8
 ```
 
-### M1 Mac Users
-Since the M1 Mac came out after the release of this edition, the versions required are higher than for other installations, as such there may be slight discrepancies with the scikit-learn results.
-
-Make sure to use Python 3.9. If you decide to use `conda`, make sure to first install `mamba` and use that to install everything using the `environment.yml` file instead:
+### Apple Silicon Users
+Make sure to use Python 3.8 if you plan to install packages with `pip`. If you decide to use `conda`, make sure to first install `mamba` and use that to install everything using the `environment.yml` file instead:
 
 ```shell
 $ conda install mamba -n base -c conda-forge
@@ -86,9 +84,7 @@ $ cd Hands-On-Data-Analysis-with-Pandas-2nd-edition
 Each chapter comes with exercises. The solutions for chapters 1-11 can be found [here](./solutions). Since the exercises in chapter 12 are open-ended, no solutions are provided.
 
 ## About the Author
-Stefanie Molin ([@stefmolin](https://github.com/stefmolin)) is a data scientist and software engineer at Bloomberg L.P. in NYC (and hacker in training) tackling tough problems in Information Security particularly revolving around anomaly detection, building tools for gathering data, and knowledge sharing. She has extensive experience in data science, designing anomaly detection solutions, and utilizing machine learning in both R and Python in the AdTech and FinTech industries. She holds a B.S. in Operations Research from Columbia University’s Fu Foundation School of Engineering and Applied Science with minors in Economics and Entrepreneurship and Innovation.
-
-In her free time, she enjoys traveling the world, inventing new recipes, and learning new languages spoken both among people and computers.
+Stefanie Molin ([@stefmolin](https://github.com/stefmolin)) is a software engineer and data scientist at Bloomberg in New York City, where she tackles tough problems in information security, particularly those revolving around data wrangling/visualization, building tools for gathering data, and knowledge sharing. She holds a bachelor’s of science degree in operations research from Columbia University's Fu Foundation School of Engineering and Applied Science with minors in Economics and Entrepreneurship and Innovation, as well as a master’s degree in computer science, with a specialization in machine learning, from Georgia Tech. In her free time, she enjoys traveling the world, inventing new recipes, and learning new languages spoken both among people and computers.
 
 ## Acknowledgements
 Since the book limited the acknowledgements to 450 characters, the full version is [here](./acknowledgements.md).
